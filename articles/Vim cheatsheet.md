@@ -14,7 +14,7 @@
 - ^: to move to the start of the first word of the current line
 - $: to move to the end of the current line
 - \<C-U\> / \<C-D\>: Page up/page down
-- G: Go to bottom of the file
+- \<Ctrl-G\>: Go to bottom of the file
 
 ### Character
 
@@ -23,7 +23,7 @@
 
 ### Go to definition
 
-- g f: go to definition
+- \<Ctrl-]\>: go to definition
 
 ## Editing
 
