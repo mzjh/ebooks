@@ -13,8 +13,8 @@
 - 0: to move to the start of the current line
 - ^: to move to the start of the first word of the current line
 - $: to move to the end of the current line
-- <CR>: to move to the start of next line
-- <C-U> / <C-D>: Page up/page down
+- \<C-U\> / \<C-D\>: Page up/page down
+- G: Go to bottom of the file
 
 ### Character
 
