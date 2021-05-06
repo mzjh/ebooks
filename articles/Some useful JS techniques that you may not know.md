@@ -9,6 +9,19 @@ console.log(typeof Math); // object
 console.log(typeof Array); // function
 ```
 
+### Exponentiation Operator
+
+```javascript
+Math.pow(2,3) === 2 ** 3;
+```
+
+### Floor Value of a Number
+
+```javascript
+Math.floor(5.25) === 5;
+~~5.25 === 5
+```
+
 ## Function
 
 There are two ways to construct a function:
@@ -129,6 +142,18 @@ let fil = arr.filter(it => {
   return it != null;
 });
 console.log(fil); //[1]
+```
+
+OR with `Nullish Coalescing Operator`
+
+```javascript
+const a = null;
+const b = undefined;
+
+const num1 = a ?? 1;
+const num2 = b ?? 2;
+
+console.log(num1, num2); // 1, 2
 ```
 
 ## Reference
